@@ -1,0 +1,45 @@
+.header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .logo{
+        width: 120px;
+        .logo__img{
+            width: 120px;
+        }
+    }
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 500px;
+    }
+    .contact{
+        width: 405px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .contact__number{
+            font-weight: bold;
+        }
+        .contact__contactUs__btn{
+            width: 140px;
+            height: 45px;
+            border-radius: 5px;
+            color: white;
+            background-color: #859BA6;
+
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .contact__languageSwitcher__active{
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            color: white;
+            background-color: #859BA6;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.main{
+    padding: 20px;
+    height: 545px;
+    background: linear-gradient( #F7F9FB4D,#D4E3EC4D);
+    .main__info{
+        padding: 130px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .main__introduction{
+            width: 340px;
+            height: 250px;
+            .main__introduction__header{
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-size: 20px;
+                .main__introduction__header__h1{
+                    font-weight: 500px;
+                    font-size: 50px;
+                    line-height: 65px;
+                }
+                .main__introduction__description{
+                    font-weight: 300px;
+                }
+            }
+            .main__introduction__button{
+                width: 140px;
+                height: 45px;
+                border-radius: 5px;
+                color: white;
+                background-color: #859BA6;
+                font-weight: bold;
+            }
+        }
+        .main__img{
+            width: 560px;
+            height: 385px;
+        }
+        .main__description__product{
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;  
+            .main__description__product__desc{
+                font-size: 24px;
+                font-weight: 300px;
+                padding-bottom: 15px;
+            }
+            .main__description__product__header{
+                font-size: 24px;
+                font-weight: bold;
+                padding-bottom: 15px;
+
+            }
+            .main__description__product__button{
+                padding-bottom: 15px;
+                .main__description__product__btn{
+                width: 140px;
+                height: 45px;
+                color: #859BA6;
+                background-color: transparent;
+                border:2px solid #859BA6;
+                border-radius: 5px;
+                
+
+                font-weight: bold;
+            }
+            }
+            
+        }
+    }
+}

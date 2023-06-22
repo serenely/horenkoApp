@@ -1,0 +1,63 @@
+.submitForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .form{
+        border: 1px solid #859BA6;
+        width: 480px;
+        height: auto;
+        padding: 50px;
+        .submitForm__header{
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        }
+        
+    }
+    .submitForm__title{
+        font-size: 40px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .submitForm__desc{
+        font-weight: 400;
+        padding-bottom: 50px;
+
+    }
+    .input__form{
+        padding-bottom: 15px;
+        }
+    .submitForm__button{
+                padding-bottom: 15px;
+        .btn{
+                width: 360px;
+                height: 45px;
+                border-radius: 5px;
+                color: white;
+                background-color: #859BA6;
+                font-weight: bold;
+        }
+    }
+    .submitForm__description{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: Graphik LCG;
+    }
+}
+
+input{
+  width: 360px;
+  height: 45px;
+  border-radius: 5px;
+
+}
+form{
+  width: 350px;
+  min-height: 240px;
+  background-color:white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 5px;
+}
